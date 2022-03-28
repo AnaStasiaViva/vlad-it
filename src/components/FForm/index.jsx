@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useCallback } from "react";
 import { scriptRequest } from "../../utils/jsonp";
 import { capitalizeFirstLetter, deeplyNested } from "./../../utils/hepler";
-
 import "./style.scss";
 import Loader from "../Loader";
 
